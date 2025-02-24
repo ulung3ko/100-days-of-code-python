@@ -9,3 +9,6 @@ print("Hello " + "Eko")
 
 # Get answer from user
 input("What is your name?")
+
+# Give output to user
+print("Hello " +input("What is your name?"))
