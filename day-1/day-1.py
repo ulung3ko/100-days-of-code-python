@@ -18,3 +18,6 @@ print("Hello " +input("What is your name?") + "!")
 
 # Save input from user with variables
 name = input("What is your name?")
+
+# Task - Check the length of the user input
+print(len(name))
