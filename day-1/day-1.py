@@ -8,7 +8,10 @@ print("Hello World!\nHello World!\nHello World!")
 print("Hello " + "Eko")
 
 # Get answer from user
-input("What is your name?")
+#input("What is your name?")
 
 # Give output to user
-print("Hello " +input("What is your name?"))
+#print("Hello " +input("What is your name?"))
+
+# Task
+print("Hello " +input("What is your name?") + "!")
