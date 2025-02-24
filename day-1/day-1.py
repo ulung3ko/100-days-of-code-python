@@ -14,10 +14,11 @@ print("Hello " + "Eko")
 #print("Hello " +input("What is your name?"))
 
 # Task
-print("Hello " +input("What is your name?") + "!")
+# print("Hello " +input("What is your name?") + "!")
 
 # Save input from user with variables
 name = input("What is your name?")
 
-# Task - Check the length of the user input
-print(len(name))
+# Task - Check the length of the user input with variables
+length = len(name)
+print(length)
