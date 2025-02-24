@@ -15,3 +15,6 @@ print("Hello " + "Eko")
 
 # Task
 print("Hello " +input("What is your name?") + "!")
+
+# Save input from user with variables
+name = input("What is your name?")
