@@ -6,3 +6,6 @@ print("Hello World!\nHello World!\nHello World!")
 
 # String Concatenation
 print("Hello " + "Eko")
+
+# Get answer from user
+input("What is your name?")
