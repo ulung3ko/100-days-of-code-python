@@ -1,2 +1,3 @@
 # Subscripting
-print("Hello"[0])
+# Display last character
+print("Hello"[4])
