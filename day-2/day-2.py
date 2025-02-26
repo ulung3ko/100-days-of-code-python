@@ -29,3 +29,6 @@ print(type("Eko"))
 print(type(123))
 print(type(123.456))
 print(type(True ))
+
+# Type conversion
+print(int("123") + int("456"))
