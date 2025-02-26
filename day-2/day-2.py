@@ -18,5 +18,5 @@ print(3.14159)
 print(True)
 print(False)
 
-# Integer in len() function
-len(12345)
+# Fix the TypeError
+len("12345")
