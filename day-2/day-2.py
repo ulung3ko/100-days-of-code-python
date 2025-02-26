@@ -23,3 +23,9 @@ len("12345")
 
 # Check any data types use type() function
 print(type(123))
+
+# Type check for 4 data types
+print(type("Eko"))
+print(type(123))
+print(type(123.456))
+print(type(True ))
