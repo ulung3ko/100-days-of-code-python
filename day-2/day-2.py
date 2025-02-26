@@ -20,3 +20,6 @@ print(False)
 
 # Fix the TypeError
 len("12345")
+
+# Check any data types use type() function
+print(type(123))
