@@ -17,3 +17,6 @@ print(3.14159)
 # Boolean
 print(True)
 print(False)
+
+# Integer in len() function
+len(12345)
