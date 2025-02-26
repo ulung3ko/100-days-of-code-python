@@ -1,3 +1,3 @@
 # Subscripting
-# Display last character
-print("Hello"[4])
+# Display last character with negative number indexing
+print("Hello"[-1])
