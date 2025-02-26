@@ -32,3 +32,6 @@ print(type(True ))
 
 # Type conversion
 print(int("123") + int("456"))
+
+# Task - Make this line of code run without errors
+print("Number of letters in your name: " + (len(input("Enter your name"))))
