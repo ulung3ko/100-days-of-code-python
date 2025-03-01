@@ -46,4 +46,8 @@ print("Number of letters in your name: " + str(length_Of_username))
 print(123 + 456)
 print(7 - 3)
 print(3 * 2)
-print(6 / 3)
+print(6 / 3) # The result is float
+print(5 / 3) # The result is float
+print(6 // 3) # The result is integer (remove decimal)
+print(5 // 3) # The result is integer (remove decimal)
+print(2 ** 2)
