@@ -41,3 +41,9 @@ print(type("Number of letters in your name: ")) #str
 print(type(length_Of_username))
 
 print("Number of letters in your name: " + str(length_Of_username))
+
+# Mathematical Operations
+print(123 + 456)
+print(7 - 3)
+print(3 * 2)
+print(6 / 3)
