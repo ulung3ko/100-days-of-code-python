@@ -63,4 +63,5 @@ print(2 ** 2)
 # * OR /
 # + OR -
 
-print(3 * 3 + 3 / 3 - 3)
+# How to the result of this code is 3
+print(3 * (3 + 3) / 3 - 3)
