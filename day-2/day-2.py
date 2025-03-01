@@ -43,11 +43,24 @@ print(type(length_Of_username))
 print("Number of letters in your name: " + str(length_Of_username))
 
 # Mathematical Operations
+# Addition
 print(123 + 456)
+# Subtraction
 print(7 - 3)
+# Multiplication
 print(3 * 2)
+# Dvision
 print(6 / 3) # The result is float
 print(5 / 3) # The result is float
 print(6 // 3) # The result is integer (remove decimal)
 print(5 // 3) # The result is integer (remove decimal)
+# Exponents
 print(2 ** 2)
+
+# PEMDAS LR (Lef-Right)
+# ()
+# **
+# * OR /
+# + OR -
+
+print(3 * 3 + 3 / 3 - 3)
