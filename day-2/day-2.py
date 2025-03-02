@@ -34,13 +34,13 @@ print(type(True ))
 print(int("123") + int("456"))
 
 # Task - Solution of the task (with variables and type check)
-username = input("Enter your name\n")
-length_Of_username = len(username)
+#username = input("Enter your name\n")
+#length_Of_username = len(username)
 
-print(type("Number of letters in your name: ")) #str
-print(type(length_Of_username))
+#print(type("Number of letters in your name: ")) #str
+#print(type(length_Of_username))
 
-print("Number of letters in your name: " + str(length_Of_username))
+#print("Number of letters in your name: " + str(length_Of_username))
 
 # Mathematical Operations
 # Addition
@@ -65,3 +65,18 @@ print(2 ** 2)
 
 # How to the result of this code is 3
 print(3 * (3 + 3) / 3 - 3)
+
+# BMI
+bmi = 84 / 1.65 ** 2
+
+print(bmi)
+
+# Converting bmi into integer
+print(int(bmi))
+
+# Remove decimal using round() function
+print(round(bmi))
+
+# round() function with ndigits
+print(round(bmi, 2))
+
