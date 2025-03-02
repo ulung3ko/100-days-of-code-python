@@ -80,3 +80,12 @@ print(round(bmi))
 # round() function with ndigits
 print(round(bmi, 2))
 
+# Assignment Operator
+
+score = 0
+score += 1
+print(score)
+
+score = 0
+score -= 1
+print(score)
