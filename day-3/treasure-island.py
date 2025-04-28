@@ -22,22 +22,34 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 Welcome to the Treasure Island.
 Your mission is find the treasure.
 ''')
+
+# Stage 1
 path_choice= input("You find yourself in an ancient forest."
                     " Two narrow paths stretch out before you."
-                    " Do you go 'left' into the dark woods, or 'right' toward the misty hills?").lower()
-
+                    " Do you go 'left' into the dark woods, or 'right' toward the misty hills?\n").lower()
+# Stage 2
 if path_choice == "right":
-    broken_bridge = input("After walking for hours, you reach a sparkling river blocking your way."
+    bridge_choice = input("After walking for hours, you reach a sparkling river blocking your way."
                           " A broken bridge lies nearby."
-                          " Will you 'wait' to fix the bridge, or 'swim' across the rushing water?").lower()
-    if broken_bridge == "wait":
+                          " Will you 'wait' to fix the bridge,"
+                          " or 'swim' across the rushing water?\n").lower()
+    # Stage 3
+    if bridge_choice == "wait":
         choose_door = input("Crossing safely, you find an ancient tower with three heavy doors:"
-                            " one golden, one silver, and one obsidian black. Which one do you open?").lower()
+                            " one golden, one silver, and one obsidian black."
+                            " Which one do you open?\n").lower()
+
         if choose_door == "golden":
             print("You open the golden door and find a chamber glittering with treasures. You Win!")
+        elif choose_door == "silver":
+            print("You step into the silver door and trigger a deadly trap. Game Over.")
+        elif choose_door == "obsidian black":
+            print("A shadow engulfs you as you enter the black door. You are never seen again. Game Over.")
         else:
-            print("You trigger a deadly trap. Game Over.")
+            print("You chose a door that doesn't exist. Game Over.")
+
     else:
         print("The current is too strong! You are swept away downstream. Game Over.")
+
 else:
     print("You wander into the mist and lose your way forever. Game Over.")
